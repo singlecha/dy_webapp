@@ -24,6 +24,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="conf\module1.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="dy_webapp.py" />
   </ItemGroup>
   <ItemGroup>
